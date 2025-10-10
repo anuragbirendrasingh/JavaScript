@@ -1,0 +1,4 @@
+DOM manipulation:
+select,modify,create,and delete element dynamically.
+
+Event handling and debugging the chrome webDev tool

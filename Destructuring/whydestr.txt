@@ -1,0 +1,14 @@
+1.Concise and readable code: 
+Destructuring allows you to access multiple values from a single object or array in one line,
+reducing verbosity and making your code easier to read and understand.
+
+
+2.Cleaner function parameters: You can destructure objects directly in a function's parameter list. 
+This is a common pattern in modern JavaScript frameworks like React to handle props
+
+
+3.Handling default values: Destructuring provides a clean way to set default values for properties that might not exist, 
+preventing potential TypeError issues and making your code more robust
+
+4.Simplified variable swapping: Destructuring allows you to swap the values of two variables in a single, 
+readable line without needing a temporary variable.

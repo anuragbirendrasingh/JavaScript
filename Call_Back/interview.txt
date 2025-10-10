@@ -1,0 +1,33 @@
+1. callback fuctions are functions which are paased in the arguments of the other function.
+    callbacks are used to handle the async tasks in the js.foreach and map method of array are
+    exampleof the sync callbacks. and web apis and setimout ofbrowser are async tasks.
+
+2. No it is not necssariy that the callbacks are the only used in the async tasks rather it is 
+used in sync taskalso in daily uses if we want the any function to return the value after the completion
+of the other function .or we use .mapmethod the array orin loop we use for each loop.
+
+3. when we pass a callback in argument is will execute after the parent function comleted its execution then 
+new exection context of the function will be created for the paaased function and then it will execute and poped off from
+the call stack . 
+               
+
+
+
+
+
+4 console.log("A");
+
+setTimeout(() => console.log("B"), 0);
+
+Promise.resolve().then(() => console.log("C"));
+
+console.log("D");
+
+ ans - >  A , d , c, b  
+
+ due to the sync behavor a and b willprint  first then the Promise willbe 
+ reslved because it resides n the micro task and the priority of the micro task
+ is higher thant the macrotask and timer function will be in macrotask.
+
+ 
+  
